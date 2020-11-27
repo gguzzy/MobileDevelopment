@@ -16,6 +16,9 @@ import firebase from '@react-native-firebase/app';
 import auth from '@react-native-firebase/auth';
 import analytics from '@react-native-firebase/analytics';
 
+const EMAIL_ALREADY_USED = 'auth/email-already-in-use';
+const EMAIL_INVALID = 'auth/email-already-in-use';
+
 const userData = {
   name: 'Jane',
   surname: 'Doe',
@@ -32,11 +35,11 @@ createUser = () => {
     console.log('User account created & signed in!');
   })
   .catch(error => {
-    if (error.code === 'auth/email-already-in-use') {
+    if (error.code === EMAIL_ALREADY_USED) {
       console.log('That email address is already in use!');
     }
 
-    if (error.code === 'auth/invalid-email') {
+    if (error.code === EMAIL_INVALID) {
       console.log('That email address is invalid!');
     }
 
