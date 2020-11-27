@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+# add the Firebase pod for Google Analytics
+pod 'Firebase/Analytics'
+
+target 'basicFirebase' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for basicFirebase
+
+  target 'basicFirebaseTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'basicFirebase-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for basicFirebase-tvOS
+
+  target 'basicFirebase-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
