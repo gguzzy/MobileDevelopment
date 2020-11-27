@@ -1,7 +1,9 @@
 # MobileDevelopment
-Mobile Development: Creating interfaces, templates for mobile app, using mainly React Native and Firebase, mainly on iOS. 
+Mobile Development: Creating interfaces, templates for mobile app, using React Native and Firebase, mainly developed for iOS devices. 
+
 Thanks for the attention.
 
+SMALL HINT HOW TO LET PROJECT WORK
 How to install properly:
 CREATE PROJECT and SET UP FIREBASE CONSOLE::
 - npx @react-native-community/cli init --template=@react-native-firebase/template basicFirebase
