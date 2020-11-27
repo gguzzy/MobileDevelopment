@@ -17,7 +17,7 @@ import auth from '@react-native-firebase/auth';
 import analytics from '@react-native-firebase/analytics';
 
 const EMAIL_ALREADY_USED = 'auth/email-already-in-use';
-const EMAIL_INVALID = 'auth/email-already-in-use';
+const EMAIL_INVALID = 'auth/invalid-email';
 
 const userData = {
   name: 'Jane',
