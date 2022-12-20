@@ -1,6 +1,0 @@
-framework module Pods_basicFirebaseTests {
-  umbrella header "Pods-basicFirebaseTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
